@@ -30,7 +30,7 @@ function App() {
   
   return (
     <div className="App">
-      <link rel="icon" href="%PUBLIC_URL%/favicon.ico"></link>
+      
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
