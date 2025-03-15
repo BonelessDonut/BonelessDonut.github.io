@@ -21,7 +21,7 @@ const Navbar = () => {
         href: "/brainstu"
       }, 
       {
-        name: "Riskless Financial Advisor",
+        name: "Riskless Investment Advisor",
         href: "/riskless"
       },
     ];

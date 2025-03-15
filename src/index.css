@@ -15,3 +15,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.links:link {
+  --tw-text-opacity: 1;
+    color: rgb(254 240 138 / var(--tw-text-opacity, 1)) /* #fef08a */;
+}
+
+.links:visited {
+  color: rgb(234 179 8 ) /* #eab308 */;
+}
+
+.links:hover {
+  --tw-text-opacity: 1;
+    color: rgb(250 204 21 / var(--tw-text-opacity, 1)) /* #facc15 */;
+}
