@@ -27,7 +27,7 @@ const Navbar = () => {
     ];
   return (
     <div className="bg-slate-100 w-25 h-screen text-amber-950">
-        <h2 className="text-xl p-2">Projects</h2>
+        <h2 className="text-xl p-2">Quick Links</h2>
         <ul>
             {testArr.map((item)=> <li className="p-2 text-base border-gray-600 border-t-2 rounded-md cursor-pointer active:bg-slate-300">
                 <Link to={item.href}>{item.name}</Link> 
