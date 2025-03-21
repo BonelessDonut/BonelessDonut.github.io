@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f52d7a7e.css",
-    "main.js": "/static/js/main.a6d076f6.js",
+    "main.css": "/static/css/main.ec5709cf.css",
+    "main.js": "/static/js/main.18590440.js",
     "static/js/453.92eabe45.chunk.js": "/static/js/453.92eabe45.chunk.js",
+    "static/media/everrootForestTitleScreen.png": "/static/media/everrootForestTitleScreen.9c723ba707b23277d9f7.png",
     "static/media/eddieSuberLinkedinBioPic.jpeg": "/static/media/eddieSuberLinkedinBioPic.fc849195d8858ebe930c.jpeg",
     "index.html": "/index.html",
-    "main.f52d7a7e.css.map": "/static/css/main.f52d7a7e.css.map",
-    "main.a6d076f6.js.map": "/static/js/main.a6d076f6.js.map",
+    "main.ec5709cf.css.map": "/static/css/main.ec5709cf.css.map",
+    "main.18590440.js.map": "/static/js/main.18590440.js.map",
     "453.92eabe45.chunk.js.map": "/static/js/453.92eabe45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f52d7a7e.css",
-    "static/js/main.a6d076f6.js"
+    "static/css/main.ec5709cf.css",
+    "static/js/main.18590440.js"
   ]
 }
