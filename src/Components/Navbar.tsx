@@ -29,8 +29,8 @@ const Navbar = () => {
     <div className="w-25 h-screen text-amber-950">
         <h2 className="text-xl p-2">Quick Links</h2>
         <ul>
-            {testArr.map((item)=> <li className="p-2 text-base border-gray-600 border-t-2 rounded-md cursor-pointer hover:bg-slate-200 active:bg-slate-300">
-                <Link to={item.href}>{item.name}</Link> 
+            {testArr.map((item)=> <li className="p-2 text-base border-gray-600 border-t-2 rounded-md hover:bg-slate-200 active:bg-slate-300">
+                <Link to={item.href} className='cursor-pointer'>{item.name}</Link> 
             </li>)}
         </ul>
     </div>

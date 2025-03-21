@@ -1,6 +1,5 @@
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Homepage from './Pages/Homepage';
 import MainLayout from './Pages/MainLayout';
@@ -12,17 +11,26 @@ function App() {
         <Route index element={<Homepage></Homepage>}></Route>
         <Route path="/everrootForest" element={
           <ProjectPage pageInfo={
-            {title: "Everroot Forest", repoAddress: "https://github.com/BonelessDonut/Everroot-Forest-Project"}
+            {title: "Everroot Forest",
+            repoAddress: "https://github.com/BonelessDonut/Everroot-Forest-Project",
+            id : "everrootForest",
+            }
         }></ProjectPage>
           }></Route>
         <Route path="/brainstu" element={
           <ProjectPage pageInfo={
-            {title: "Brain Stu Citation Generator", repoAddress: ""}
+            {title: "Brain Stu Citation Generator",
+              repoAddress: "",
+              id : "brainstu",
+              }
         }></ProjectPage>
           }></Route>
         <Route path="/riskless" element={
           <ProjectPage pageInfo={
-            {title: "Riskless Investment Advisor", repoAddress: ""}
+            {title: "Riskless Investment Advisor", 
+              repoAddress: "",
+              id : "riskless",
+            }
         }></ProjectPage>
           }></Route>
       </Route>
