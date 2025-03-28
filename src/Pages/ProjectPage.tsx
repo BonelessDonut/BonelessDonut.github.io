@@ -3,13 +3,15 @@ import "../index.css";
 import EverrootForest from '../Components/EverrootForest';
 import BrainStu from '../Components/BrainStu';
 import Riskless from '../Components/Riskless';
+import AboutMe from './AboutMe';
 
 type PageDirectory = Record<string, ReactElement>;
 
 const projectPages: PageDirectory = {
     "everrootForest" : (<EverrootForest></EverrootForest>),
     "brainstu" : (<BrainStu></BrainStu>),
-    "riskless" : (<Riskless></Riskless>)
+    "riskless" : (<Riskless></Riskless>),
+    "about-me" : (<AboutMe></AboutMe>),
 }
 
 interface ProjectInfo {

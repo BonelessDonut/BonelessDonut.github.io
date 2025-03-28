@@ -4,6 +4,8 @@ import './App.css';
 import Homepage from './Pages/Homepage';
 import MainLayout from './Pages/MainLayout';
 import ProjectPage from './Pages/ProjectPage';
+import IconComponent from './Components/IconComponent';
+import {FaLinkedin} from "react-icons/fa";
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -33,6 +35,15 @@ function App() {
             }
         }></ProjectPage>
           }></Route>
+          <Route path="/about-me" element={
+            <ProjectPage pageInfo={
+              {
+                title: "About Me",
+                repoAddress: "",
+                id: "about-me"
+              }
+            }></ProjectPage>
+          }></Route>
       </Route>
   ));
   
@@ -42,6 +53,7 @@ function App() {
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
+  
 }
 
 export default App;

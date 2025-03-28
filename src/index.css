@@ -29,3 +29,9 @@ code {
   --tw-text-opacity: 1;
     color: rgb(250 204 21 / var(--tw-text-opacity, 1)) /* #facc15 */;
 }
+
+.projects-item {
+  --tw-bg-opacity: 1;
+    background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1)) /* #4b5563 */;
+    width: 90%;
+}

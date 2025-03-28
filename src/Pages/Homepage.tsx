@@ -1,6 +1,9 @@
 import React from 'react'
 import "../index.css";
 import bioPic from '../images/eddieSuberLinkedinBioPic.jpeg';
+import IconComponent from '../Components/IconComponent';
+import {FaLinkedin, FaGithub} from 'react-icons/fa';
+import {AiFillMail} from "react-icons/ai";
 
 const Homepage = () => {
     
@@ -12,9 +15,8 @@ const Homepage = () => {
         <h1 id="name" className="text-center text-4xl">Welcome to Eddie Suber's Portfolio</h1>
       </div>
       <div id="page-body" className="bg-gray-600 w-full h-[90%] border-gray-400 border-4 rounded-2xl text-slate-100 flex flex-col">
-        <div id="about-me" className="h-full bg-gray-700 rounded-md border-gray-400 border-2">
-          <h2 className="text-3xl font-semibold border-b-2 border-double mb-2">About Me</h2>
-          <div id="top-bio-panel" className="p-20 border-4 border-black border-opacity-25 flex flex-row w-full h-[50%] justify-center space-x-64 items-center">
+        <div id="bio" className="h-full bg-gray-700 rounded-md border-gray-400 border-2">
+          <div id="top-bio-panel" className="p-20 border-4 border-black border-opacity-25 flex flex-row w-full justify-center space-x-64 items-center">
             <p className="max-w-[50%] text-lg text-justify"> <span className="font-medium text-xl">Hello!</span> I am an undergraduate student at Drexel University studying Computer Science. 
             I enjoy being challenged and excel when with other innovative people.
             I aspire to find ways to weave creativity into designing programs and coding.
@@ -38,28 +40,28 @@ const Homepage = () => {
               
             </img>
           </div>
-          <div id="bottom-bio-panel" className="w-full h-[50%] flex place-content-evenly items-center flex-col border-black border-4 border-opacity-25">
-            <h3 className="text-2xl font-bold border-b-2">My Origin Story</h3>
-            <p className="text-justify max-w-[75%] text-lg">
-              A fun weekend during my childhood would be getting to play Super Smash Bros. or Legend of Zelda with my sisters and their friends.
-              Video games began as not only a hobby, but also a core part of how I experienced stories. 
-              As I grew older and had other responsibilities such as school work or a job, I still kept gaming as a part of who I am.
-              Playing games together was and still is one of the main ways I love spending time with people.
-              <br></br>
-              <br></br>
-              I initially became interested in programming when I learned that is video games are made - 
-              but I didn't know about the countless hours of hard work brainstoring, designing, coding and redesigning that go into the creation of a single game.
-              <br></br>
-              <br></br>
-              From my interest in games, I learned a bit more about coding and how computers work and it has captivated me ever since.
-              The progression of how computer technology evolved from needing an entire room to fit one computer, to present day where millions carry a tiny computer around in their pocket everyday that has far greater capabilities fascinates me.
-            </p>
-          </div>
         </div>
+        <section className=" bg-gray-700 rounded-md border-gray-400 border-2">
+          <div id="projects-section-title">
+            <h2 className="text-3xl font-semibold border-b-2 border-double mb-2">Experience</h2>
+            </div>
+          <div id="projects-section-body">
+            <ul className="flex flex-col gap-2 items-center pb-2">
+              <li className='projects-item'>
+                <h3 className="text-lg text-yellow-100">Everroot Forest</h3>
+                <p>
+                  Worked on a 2D roguelike adventure game inspired by Legend of Zelda and made using Pygame.
+                </p>
+              </li>
+              <li className='projects-item'>Riskless</li>
+            </ul>
+          </div>
+        </section>
         <div id="contact" className="bg-gray-700 rounded-md border-gray-400 border-2">
           <h2 className="text-3xl font-semibold border-b-2 border-double mb-2">Contact Info</h2>
           <ul>
-            <li>
+            <li className="flex flex-row justify-center items-center">
+              <IconComponent icon={FaLinkedin}/>
               <a 
               className="links" 
               href="https://www.linkedin.com/in/eddie-suber-369370296/" 
@@ -68,7 +70,8 @@ const Homepage = () => {
                 LinkedIn
               </a>
             </li>
-            <li>
+            <li className="flex flex-row justify-center items-center">
+              <IconComponent icon={FaGithub}/>
               <a 
               className="links"
               href="https://github.com/BonelessDonut"
@@ -76,6 +79,14 @@ const Homepage = () => {
               rel="noreferrer"
               >
                 Github
+              </a>
+            </li>
+            <li className="flex flex-row justify-center items-center">
+              <IconComponent icon={AiFillMail}/>
+              <a
+              className="links"
+              href="mailto:eddiesuber7@gmail.com?subject=Interest from your Portfolio Website">
+                Email
               </a>
             </li>
           </ul>

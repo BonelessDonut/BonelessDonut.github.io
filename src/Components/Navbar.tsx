@@ -13,6 +13,10 @@ const Navbar = () => {
         href: "/"
       },
       {
+        name: "About Me",
+        href: "/about-me"
+      },
+      {
         name: "Everroot Forest",
         href: "/everrootForest"
       }, 
