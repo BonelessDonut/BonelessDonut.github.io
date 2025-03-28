@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f104f49.css",
+    "main.js": "/static/js/main.eaa78a85.js",
+    "static/js/453.92eabe45.chunk.js": "/static/js/453.92eabe45.chunk.js",
+    "static/media/everrootForestTitleScreen.png": "/static/media/everrootForestTitleScreen.9c723ba707b23277d9f7.png",
+    "static/media/eddieSuberLinkedinBioPic.jpeg": "/static/media/eddieSuberLinkedinBioPic.fc849195d8858ebe930c.jpeg",
+    "index.html": "/index.html",
+    "main.9f104f49.css.map": "/static/css/main.9f104f49.css.map",
+    "main.eaa78a85.js.map": "/static/js/main.eaa78a85.js.map",
+    "453.92eabe45.chunk.js.map": "/static/js/453.92eabe45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f104f49.css",
+    "static/js/main.eaa78a85.js"
+  ]
+}
