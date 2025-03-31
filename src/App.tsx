@@ -4,8 +4,6 @@ import './App.css';
 import Homepage from './Pages/Homepage';
 import MainLayout from './Pages/MainLayout';
 import ProjectPage from './Pages/ProjectPage';
-import IconComponent from './Components/IconComponent';
-import {FaLinkedin} from "react-icons/fa";
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(

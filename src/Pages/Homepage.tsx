@@ -1,9 +1,9 @@
 import React from 'react'
 import "../index.css";
 import bioPic from '../images/eddieSuberLinkedinBioPic.jpeg';
-import IconComponent from '../Components/IconComponent';
-import {FaLinkedin, FaGithub} from 'react-icons/fa';
-import {AiFillMail} from "react-icons/ai";
+import ContactInfo from '../Components/ContactInfo';
+import RisklessPreview from '../Components/RisklessPreview';
+import EverrootForestPreview from '../Components/EverrootForestPreview';
 
 const Homepage = () => {
     
@@ -48,48 +48,17 @@ const Homepage = () => {
           <div id="projects-section-body">
             <ul className="flex flex-col gap-2 items-center pb-2">
               <li className='projects-item'>
-                <h3 className="text-lg text-yellow-100">Everroot Forest</h3>
-                <p>
-                  Worked on a 2D roguelike adventure game inspired by Legend of Zelda and made using Pygame.
-                </p>
+                <EverrootForestPreview/>
               </li>
-              <li className='projects-item'>Riskless</li>
+              <li className='projects-item'>
+                <RisklessPreview/>
+              </li>
             </ul>
           </div>
         </section>
         <div id="contact" className="bg-gray-700 rounded-md border-gray-400 border-2">
           <h2 className="text-3xl font-semibold border-b-2 border-double mb-2">Contact Info</h2>
-          <ul>
-            <li className="flex flex-row justify-center items-center">
-              <IconComponent icon={FaLinkedin}/>
-              <a 
-              className="links" 
-              href="https://www.linkedin.com/in/eddie-suber-369370296/" 
-              target='_blank'
-              rel="noreferrer">
-                LinkedIn
-              </a>
-            </li>
-            <li className="flex flex-row justify-center items-center">
-              <IconComponent icon={FaGithub}/>
-              <a 
-              className="links"
-              href="https://github.com/BonelessDonut"
-              target="_blank"
-              rel="noreferrer"
-              >
-                Github
-              </a>
-            </li>
-            <li className="flex flex-row justify-center items-center">
-              <IconComponent icon={AiFillMail}/>
-              <a
-              className="links"
-              href="mailto:eddiesuber7@gmail.com?subject=Interest from your Portfolio Website">
-                Email
-              </a>
-            </li>
-          </ul>
+          <ContactInfo/>
           
         </div>
       </div>
