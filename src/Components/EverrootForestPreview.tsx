@@ -12,7 +12,7 @@ const EverrootForestPreview = () => {
                 id="title-screen-pic"
                 src= {protag}
                 alt="Everroot Forest Title Screen"
-                className="h-6 rounded-2xl"
+                className="h-6 rounded-xl"
                 >
                 </img>
                   Everroot Forest

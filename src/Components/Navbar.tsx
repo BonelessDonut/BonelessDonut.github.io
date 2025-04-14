@@ -17,20 +17,20 @@ const Navbar = () => {
         href: "/about-me"
       },
       {
-        name: "Everroot Forest",
-        href: "/everrootForest"
-      }, 
+        name: "Riskless Investment Advisor",
+        href: "/riskless"
+      },
       {
         name: "BrainStu Citation Generator",
         href: "/brainstu"
       }, 
       {
-        name: "Riskless Investment Advisor",
-        href: "/riskless"
-      },
+        name: "Everroot Forest",
+        href: "/everrootForest"
+      }, 
     ];
   return (
-    <div className="w-25 h-screen text-amber-950">
+    <div className="w-25 h-screen text-amber-950 z-10">
         <h2 className="text-xl p-2">Quick Links</h2>
         <ul>
             {testArr.map((item)=> <li className="p-2 text-base border-gray-600 border-t-2 rounded-md hover:bg-slate-200 active:bg-slate-300">

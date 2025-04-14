@@ -1,6 +1,6 @@
 import React from 'react'
 import Accordian from './Accordian';
-import landingPage from '../images/risklessLandingPage.png';
+import logo from '../images/risklessLogoPic.png';
 
 const RisklessPreview = () => {
   return (
@@ -10,9 +10,9 @@ const RisklessPreview = () => {
             <h3 className="flex flex-row items-center justify-center">
                 <img
                 id="landing-page-pic"
-                src={landingPage}
+                src={logo}
                 alt="Riskless Landing Page"
-                className='h-6 rounded-2xl'
+                className='h-6 rounded-xl'
                 ></img>
                 Riskless
             </h3>

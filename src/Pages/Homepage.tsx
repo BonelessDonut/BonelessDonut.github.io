@@ -4,6 +4,7 @@ import bioPic from '../images/eddieSuberLinkedinBioPic.jpeg';
 import ContactInfo from '../Components/ContactInfo';
 import RisklessPreview from '../Components/RisklessPreview';
 import EverrootForestPreview from '../Components/EverrootForestPreview';
+import BrainStuPreview from '../Components/BrainStuPreview';
 
 const Homepage = () => {
     
@@ -16,8 +17,8 @@ const Homepage = () => {
       </div>
       <div id="page-body" className="bg-gray-600 w-full h-[90%] border-gray-400 border-4 rounded-2xl text-slate-100 flex flex-col">
         <div id="bio" className="h-full bg-gray-700 rounded-md border-gray-400 border-2">
-          <div id="top-bio-panel" className="p-20 border-4 border-black border-opacity-25 flex flex-row w-full justify-center space-x-64 items-center">
-            <p className="max-w-[50%] text-lg text-justify"> <span className="font-medium text-xl">Hello!</span> I am an undergraduate student at Drexel University studying Computer Science. 
+          <div id="top-bio-panel" className="p-20 border-4 border-black border-opacity-25 flex flex-row w-full justify-center space-x-56 items-center">
+            <p className="max-w-[60%] text-lg text-justify"> <span className="font-medium text-xl">Hello!</span> I am an undergraduate student at Drexel University studying Computer Science. 
             I enjoy being challenged and excel when with other innovative people.
             I aspire to find ways to weave creativity into designing programs and coding.
             <br></br>
@@ -35,7 +36,7 @@ const Homepage = () => {
             id="bio-picture" 
             alt="Eddie Suber"
             src={bioPic}
-            className="h-[80%] rounded-full border-opacity-20 border-black border-8"
+            className="h-[75%] rounded-full border-opacity-20 border-black border-8"
             >
               
             </img>
@@ -47,11 +48,14 @@ const Homepage = () => {
             </div>
           <div id="projects-section-body">
             <ul className="flex flex-col gap-2 items-center pb-2">
-              <li className='projects-item'>
-                <EverrootForestPreview/>
+            <li className='projects-item'>
+                <RisklessPreview/>
+              </li>
+              <li className="projects-item">
+                <BrainStuPreview/>
               </li>
               <li className='projects-item'>
-                <RisklessPreview/>
+                <EverrootForestPreview/>
               </li>
             </ul>
           </div>
