@@ -20,7 +20,10 @@ const BrainStuPreview = () => {
         }
         inner={
             <p>
-
+              Designed and implemented a Google Docs extension to assist in finding 
+              sources for research through analyzing the document content and finding relevant web articles.
+              <br></br>
+              Leveraged the OpenAi ChatGPT model to offer summaries of the source and created a works cited section for the user.
             </p>
         }
         />

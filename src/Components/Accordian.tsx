@@ -32,7 +32,7 @@ const Accordian: React.FC<Props> = ( {outer, inner} ): React.ReactElement => {
      </label>
      <div
        className={
-          "overflow-hidden h-0 text-orange-200 bg-slate-700 peer-checked:h-[10vh] peer-checked:overflow-scroll transition-[height] duration-1000 ease-in-out "
+          "overflow-hidden h-0 text-orange-200 bg-slate-700 peer-checked:h-[11vh] peer-checked:overflow-scroll transition-[height] duration-1000 ease-in-out "
        }
      >
        {inner}

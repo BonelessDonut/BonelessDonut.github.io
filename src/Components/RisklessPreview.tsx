@@ -19,7 +19,9 @@ const RisklessPreview = () => {
         }
         inner={
             <p>
-                
+                Created an investment risk management tool. Using historical data about the S&P 500 top stocks, we made predictions about how the market will behave using our homegrown machine learning algorithm.
+                <br></br>
+                The multi-team workflow allowed us to combine an interactive user inferface with a backend that communicated with our data base and setup our behind-the-scenes program logic.
             </p>
         }
         />
