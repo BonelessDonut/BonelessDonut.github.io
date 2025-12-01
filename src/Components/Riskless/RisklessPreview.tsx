@@ -1,6 +1,6 @@
 import React from 'react'
-import Accordian from './Accordian';
-import logo from '../images/risklessLogoPic.png';
+import Accordian from '../Accordian';
+import logo from '../../images/risklessLogoPic.png';
 
 const RisklessPreview = () => {
   return (

@@ -2,23 +2,36 @@ import React from 'react'
 import "../index.css";
 import bioPic from '../images/eddieSuberLinkedinBioPic.jpeg';
 import ContactInfo from '../Components/ContactInfo';
-import RisklessPreview from '../Components/RisklessPreview';
-import EverrootForestPreview from '../Components/EverrootForestPreview';
-import BrainStuPreview from '../Components/BrainStuPreview';
+import RisklessPreview from '../Components/Riskless/RisklessPreview';
+import EverrootForestPreview from '../Components/EverrootForest/EverrootForestPreview';
+import BrainStuPreview from '../Components/BrainStu/BrainStuPreview';
 
 const Homepage = () => {
     
   document.title = "Eddie Suber Portfolio";
   
   return (
-    <div id="page-background" className="w-screen bg-gray-400 flex flex-col">
-      <div id="page-header" className="w-full bg-gray-600 border-gray-400 border-4 rounded-2xl h-20 justify-center items-center flex text-slate-100">
+    <div id="page-background" className={'w-screen bg-gray-400 flex flex-col'}>
+      <div id="page-header" className={"w-full bg-gray-600 border-gray-400 border-4 rounded-2xl h-20 justify-center items-center flex text-slate-100"}>
         <h1 id="name" className="text-center text-4xl">Welcome to Eddie Suber's Portfolio</h1>
       </div>
-      <div id="page-body" className="bg-gray-600 w-full h-[90%] border-gray-400 border-4 rounded-2xl text-slate-100 flex flex-col">
-        <div id="bio" className="h-full bg-gray-700 rounded-md border-gray-400 border-2">
-          <div id="top-bio-panel" className="p-20 border-4 border-black border-opacity-25 flex flex-row w-full justify-center space-x-56 items-center">
-            <p className="max-w-[60%] text-lg text-justify"> <span className="font-medium text-xl">Hello!</span> I am an undergraduate student at Drexel University studying Computer Science. 
+      <div id="page-body" className={"bg-gray-600 w-full h-[90%] border-gray-400 border-4 rounded-2xl text-slate-100 flex flex-col"}>
+        <div id="bio" className={"h-full bg-gray-700 rounded-md border-gray-400 border-2"}>
+          <div id="top-bio-panel" className={`
+              p-5
+              border-4 
+              border-black 
+              border-opacity-25 
+              flex 
+              flex-col-reverse
+              w-full 
+              justify-center 
+              space-x-[20%]
+              items-center
+          `}>
+            <p className="lg:max-w-[80%] xl:text-xl md:max-w-[90%] xs:max-w-[90%] xs:text-sm md:text-lg text-justify"> 
+              <span className="font-medium text-xl">Hello! </span>
+            I am an undergraduate student at Drexel University studying Computer Science. 
             I enjoy being challenged and excel when with other innovative people.
             I aspire to find ways to weave creativity into designing programs and coding.
             <br></br>
@@ -36,7 +49,7 @@ const Homepage = () => {
             id="bio-picture" 
             alt="Eddie Suber"
             src={bioPic}
-            className="h-[75%] rounded-full border-opacity-20 border-black border-8"
+            className="xl:h-[75%] lg:max-w-[70%] xs:max-h-[30%] xs:max-w-[40%] rounded-full border-opacity-20 border-black border-8"
             >
               
             </img>

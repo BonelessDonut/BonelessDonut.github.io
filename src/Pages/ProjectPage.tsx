@@ -1,8 +1,8 @@
 import React, { ReactElement } from 'react'
 import "../index.css";
-import EverrootForest from '../Components/EverrootForest';
-import BrainStu from '../Components/BrainStu';
-import Riskless from '../Components/Riskless';
+import EverrootForest from '../Components/EverrootForest/EverrootForest';
+import BrainStu from '../Components/BrainStu/BrainStu';
+import Riskless from '../Components/Riskless/Riskless';
 import AboutMe from './AboutMe';
 
 type PageDirectory = Record<string, ReactElement>;

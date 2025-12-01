@@ -1,5 +1,5 @@
 import React from 'react'
-import titleScreen from '../images/everrootForestTitleScreen.png';
+import titleScreen from '../../images/everrootForestTitleScreen.png';
 
 const EverrootForest = () => {
   return (

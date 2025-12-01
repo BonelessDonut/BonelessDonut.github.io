@@ -1,6 +1,6 @@
 import React from 'react'
-import Accordian from './Accordian'
-import BrainStuLogo from '../images/brainstu-logo.png';
+import Accordian from '../Accordian'
+import BrainStuLogo from '../../images/brainstu-logo.png';
 
 const BrainStuPreview = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import landingPage from '../images/risklessLandingPage.png';
+import landingPage from '../../images/risklessLandingPage.png';
 
 const Riskless = () => {
   return (

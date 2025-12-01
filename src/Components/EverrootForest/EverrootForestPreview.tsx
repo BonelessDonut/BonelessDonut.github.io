@@ -1,6 +1,6 @@
 import React from 'react'
-import Accordian from './Accordian';
-import protag from '../images/EFProtag.png';
+import Accordian from '../Accordian';
+import protag from '../../images/EFProtag.png';
 
 const EverrootForestPreview = () => {
   return (
