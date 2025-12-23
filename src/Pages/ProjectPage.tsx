@@ -7,12 +7,12 @@ import AboutMe from './AboutMe';
 
 type PageDirectory = Record<string, ReactElement>;
 
-const projectPages: PageDirectory = {
+const projectPages: PageDirectory = Object.freeze({
     "everrootForest" : (<EverrootForest></EverrootForest>),
     "brainstu" : (<BrainStu></BrainStu>),
     "riskless" : (<Riskless></Riskless>),
     "about-me" : (<AboutMe></AboutMe>),
-}
+})
 
 interface ProjectInfo {
     title: string,

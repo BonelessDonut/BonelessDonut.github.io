@@ -13,7 +13,7 @@ const Homepage = () => {
   return (
     <div id="page-background" className={'w-screen bg-gray-400 flex flex-col'}>
       <div id="page-header" className={"w-full bg-gray-600 border-gray-400 border-4 rounded-2xl h-20 justify-center items-center flex text-slate-100"}>
-        <h1 id="name" className="text-center text-4xl">Welcome to Eddie Suber's Portfolio</h1>
+        <h1 id="name" className="text-center text-4xl xs:text-lg">Welcome to Eddie Suber's Portfolio</h1>
       </div>
       <div id="page-body" className={"bg-gray-600 w-full h-[90%] border-gray-400 border-4 rounded-2xl text-slate-100 flex flex-col"}>
         <div id="bio" className={"h-full bg-gray-700 rounded-md border-gray-400 border-2"}>

@@ -1,0 +1,8 @@
+.mobileShow {
+    display: block;
+    width: 100%;
+}
+
+.mobileHide {
+    display: none;
+}
