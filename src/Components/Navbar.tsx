@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useMemo} from 'react'
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
@@ -8,7 +8,7 @@ interface LinkObj {
 }
 
 const Navbar = () => {
-  const testArr: LinkObj[] = [
+  const testArr: LinkObj[] = useMemo(() => [
     {
       name: "Home",
       href: "/"
@@ -29,10 +29,10 @@ const Navbar = () => {
       name: "Everroot Forest",
       href: "/everrootForest"
     }, 
-  ];
+  ], []);
   const [mobileShowing, setMobileShowing] = useState(false)
   const [mobileClass, setMobileClass] = useState(styles.mobileHide)
-  const [currentPage, setCurrentPage] = useState('Home')
+  const [currentPage, setCurrentPage] = useState('')
   function changeMobileShowing(){
     setMobileShowing(!mobileShowing)
   }
@@ -49,6 +49,20 @@ const Navbar = () => {
       isMounted = false
     }
   }, [mobileShowing])
+
+  useEffect(()=> {
+    let isMounted: boolean = true
+    if (isMounted){
+      const pathname = window.location.pathname
+      for (let i: number = 0; i < testArr.length; i++){
+        if (testArr[i].href === pathname){
+          setCurrentPage(testArr[i].name);
+          break;
+        }
+      }
+    }
+    return ()=> {isMounted = false}
+  }, [testArr])
 
   return (<>
       <div className="flex flex-col sm:hidden w-screen align-middle text-amber-950 z-10 h-20 hover:cursor-pointer hover:bg-slate-200 active:bg-slate-300">
