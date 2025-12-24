@@ -19,7 +19,7 @@ const Accordian: React.FC<Props> = ( {outer, inner} ): React.ReactElement => {
      <label
        htmlFor="expandCollapse"
        className={
-         "w-full flex justify-center hover:to-slate-700 items-center text-lg text-yellow-100 bg-gradient-to-t from-gray-500 to-slate-600 transition-colors duration-1000 ease-in-out"
+         "w-full flex justify-center hover:to-slate-700 items-center text-lg text-slate-100 bg-gradient-to-t from-gray-600 to-slate-500 transition-colors duration-1000 ease-in-out"
         }
        onClick={() => setIsOpen(!isOpen)}
      >
@@ -32,7 +32,7 @@ const Accordian: React.FC<Props> = ( {outer, inner} ): React.ReactElement => {
      </label>
      <div
        className={
-          "overflow-hidden h-0 text-orange-200 bg-slate-700 peer-checked:h-[11vh] peer-checked:overflow-scroll transition-[height] duration-1000 ease-in-out "
+          "overflow-hidden h-0 text-slate-100 bg-gray-800 peer-checked:h-[11vh] peer-checked:overflow-scroll transition-[height] duration-1000 ease-in-out "
        }
      >
        {inner}

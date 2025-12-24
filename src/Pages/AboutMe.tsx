@@ -1,11 +1,9 @@
 import React from 'react'
-import bioPic from '../images/eddieSuberLinkedinBioPic.jpeg';
 
 const AboutMe = () => {
   return (
     <div>
         <div id="bottom-bio-panel" className="w-full h-full flex place-content-evenly items-center flex-col bg-gray-700 border-black border-4 border-opacity-25">
-            <h3 className="text-2xl font-bold border-b-2">My Origin Story</h3>
             <p className="text-justify max-w-[75%] text-lg">
               A fun weekend during my childhood would be getting to play Super Smash Bros. or Legend of Zelda with my sisters and their friends.
               Video games began as not only a hobby, but also a core part of how I experienced stories. 
@@ -19,6 +17,9 @@ const AboutMe = () => {
               <br></br>
               From my interest in games, I learned a bit more about coding and how computers work and it has captivated me ever since.
               The progression of how computer technology evolved from needing an entire room to fit one computer, to present day where millions carry a tiny computer around in their pocket everyday that has far greater capabilities fascinates me.
+              <br></br>
+              <br></br>
+              I enjoy making websites and small programs to try out ideas.
             </p>
           </div>
     </div>

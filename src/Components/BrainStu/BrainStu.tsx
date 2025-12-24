@@ -10,13 +10,13 @@ const BrainStu = () => {
         id="brainstu-concept-pic"
         src={logo}
         alt="BrainStu Expanded Logo"
-        className="xs:h-[24rem] md:h-4/5 rounded-2xl border-solid border-opacity-25 border-black border-8"
+        className="xs:h-[20rem] md:h-[15rem] rounded-2xl border-solid border-opacity-25 border-black border-8"
         ></img>
         <img
         id="demo-page"
         src={demoPage}
         alt="BrainStu Demo"
-        className="xs:h-1/4 md:h-4/5 rounded-lg border-solid border-opacity-15 border-black border-4"
+        className="w-[24rem] md:h-[20rem] md:max-w-[35rem] lg:w-[35rem] rounded-lg border-solid border-opacity-15 border-black border-4"
         ></img>
       </div>
       <p className="sm:text-lg xs:text-md text-justify w-[80%] xs:h-[70%]">

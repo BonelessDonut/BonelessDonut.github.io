@@ -65,7 +65,7 @@ const Navbar = () => {
               </li>)}
           </ul>
       </div>
-      <div className="w-25 h-screen text-amber-950 z-10 xs:hidden sm:block">
+      <div className="w-25 h-screen text-amber-950 z-10 hidden sm:block">
           <h2 className="text-xl p-2">Quick Links</h2>
           <ul>
               {testArr.map((item)=> <li className={`text-base border-gray-600 border-t-2 rounded-md hover:bg-slate-200 active:bg-slate-300 ${item.name === currentPage ? 'bg-slate-400' : ''}`}>
