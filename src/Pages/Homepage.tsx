@@ -13,7 +13,6 @@ const Homepage = () => {
     {name: 'EverrootForest', component: EverrootForestPreview},
   ];
     
-  document.title = "Eddie Suber Portfolio";
   
   return (
     <div id="page-background" className={'w-screen bg-gray-400 flex flex-col'}>
